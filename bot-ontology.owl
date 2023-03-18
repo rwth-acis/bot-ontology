@@ -1,0 +1,885 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/marcluque/ontologies/2023/0/bot"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/marcluque/ontologies/2023/0/bot">
+    <Prefix name="" IRI="http://www.semanticweb.org/marcluque/ontologies/2023/0/bot"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#API"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chatbot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Crawler"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Database"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dialogue_Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Malicious_Bot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Messenger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metric"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monitoring_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Langauge_Processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NoSQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SQL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scraping_Bot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Bot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transaction_Bot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#User_Interface"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interacts_With"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#measures"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#monitors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#receives"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sends"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#transfers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#measurement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#produces_Event"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#supported_Type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#timestamp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auction_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bot_Response_Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cassandra"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChatGPT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_Game_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Customer_Service_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Discord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E-Commerce_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E-Mail"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Educational_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Entertainment_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Error_rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FAQ_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Facebook"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#File"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Finance_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GraphQL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hangouts"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Impersonator_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MongoDB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Moodle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MySQL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#News_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OpenAPI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PostgreSQL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prometheus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#REST"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RSS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Reddit"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Resource_Consumption"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Retention_Rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rocket.Chat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SQLite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slack"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Slot_Filling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Spam_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Stock_Market_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Success_Rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telegram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Text"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Timer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Twitter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Count"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Interaction_Count"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Interaction_Time"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#User_Sentiment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Voice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weather_Bot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Web"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#bot:String"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Chatbot"/>
+        <Class IRI="#Social_Bot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Crawler"/>
+        <Class IRI="#Bot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Database"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Malicious_Bot"/>
+        <Class IRI="#Bot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Messenger"/>
+        <Class IRI="#Medium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NoSQL"/>
+        <Class IRI="#Database"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SQL"/>
+        <Class IRI="#Database"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scraping_Bot"/>
+        <Class IRI="#Bot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Bot"/>
+        <Class IRI="#Bot"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Network"/>
+        <Class IRI="#Medium"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transaction_Bot"/>
+        <Class IRI="#Bot"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Transaction_Bot"/>
+        <NamedIndividual IRI="#Auction_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#Bot_Response_Time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NoSQL"/>
+        <NamedIndividual IRI="#Cassandra"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Natural_Langauge_Processor"/>
+        <NamedIndividual IRI="#ChatGPT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#Customer_Service_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Messenger"/>
+        <NamedIndividual IRI="#Discord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medium"/>
+        <NamedIndividual IRI="#E-Mail"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#Educational_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#Entertainment_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#Error_rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#FAQ_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Network"/>
+        <NamedIndividual IRI="#Facebook"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artifact"/>
+        <NamedIndividual IRI="#File"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#API"/>
+        <NamedIndividual IRI="#GraphQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Messenger"/>
+        <NamedIndividual IRI="#Hangouts"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artifact"/>
+        <NamedIndividual IRI="#Image"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#Impersonator_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NoSQL"/>
+        <NamedIndividual IRI="#MongoDB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Network"/>
+        <NamedIndividual IRI="#Moodle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SQL"/>
+        <NamedIndividual IRI="#MySQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#News_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#API"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SQL"/>
+        <NamedIndividual IRI="#PostgreSQL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Monitoring_System"/>
+        <NamedIndividual IRI="#Prometheus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#RSS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Natural_Langauge_Processor"/>
+        <NamedIndividual IRI="#Rasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Network"/>
+        <NamedIndividual IRI="#Reddit"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#Resource_Consumption"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#Retention_Rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Messenger"/>
+        <NamedIndividual IRI="#Rocket.Chat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SQL"/>
+        <NamedIndividual IRI="#SQLite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Messenger"/>
+        <NamedIndividual IRI="#Slack"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dialogue_Management"/>
+        <NamedIndividual IRI="#Slot_Filling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Malicious_Bot"/>
+        <NamedIndividual IRI="#Spam_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transaction_Bot"/>
+        <NamedIndividual IRI="#Stock_Market_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#Success_Rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Messenger"/>
+        <NamedIndividual IRI="#Telegram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artifact"/>
+        <NamedIndividual IRI="#Text"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Service"/>
+        <NamedIndividual IRI="#Timer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Network"/>
+        <NamedIndividual IRI="#Twitter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#User_Count"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#User_Interaction_Count"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#User_Interaction_Time"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Metric"/>
+        <NamedIndividual IRI="#User_Sentiment"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Artifact"/>
+        <NamedIndividual IRI="#Voice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chatbot"/>
+        <NamedIndividual IRI="#Weather_Bot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medium"/>
+        <NamedIndividual IRI="#Web"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#receives"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#receives"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Text"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sends"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sends"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Text"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#MySQL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Rasa"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Slack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+        <NamedIndividual IRI="#Telegram"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#measures"/>
+        <NamedIndividual IRI="#Prometheus"/>
+        <NamedIndividual IRI="#User_Count"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#measures"/>
+        <NamedIndividual IRI="#Prometheus"/>
+        <NamedIndividual IRI="#User_Interaction_Time"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#measures"/>
+        <NamedIndividual IRI="#Prometheus"/>
+        <NamedIndividual IRI="#User_Sentiment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#monitors"/>
+        <NamedIndividual IRI="#Prometheus"/>
+        <NamedIndividual IRI="#Mensa_Bot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transfers"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <NamedIndividual IRI="#File"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transfers"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <NamedIndividual IRI="#Image"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transfers"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <NamedIndividual IRI="#Text"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#transfers"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <NamedIndividual IRI="#Voice"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#E-Mail"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">EmailReceived</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#GraphQL"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Boolean</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#GraphQL"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Float</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#GraphQL"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">ID</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#GraphQL"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Integer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#GraphQL"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">List</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#GraphQL"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">String</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Boolean</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Dictionary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Double</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Enum</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Integer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">List</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Object</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#supported_Type"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">String</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Slack"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">BotAdded</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Slack"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">BotCommand</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Slack"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserJoinedChat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Slack"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserLeftChat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Slack"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserSentMessage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">BotAdded</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">BotCommand</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">BotRemoved</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserJoinedChat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserLeftChat</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Telegram"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserSentMessage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Twitter"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">TweetContains</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Twitter"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserPosted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Twitter"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserRetweeted</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#produces_Event"/>
+        <NamedIndividual IRI="#Twitter"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">UserSentMessage</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interacts_With"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#measures"/>
+        <Class IRI="#Monitoring_System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#monitors"/>
+        <Class IRI="#Monitoring_System"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#Bot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sends"/>
+        <Class IRI="#Bot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#sends"/>
+        <Class IRI="#User"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#transfers"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Bot"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interacts_With"/>
+        <Class IRI="#Bot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interacts_With"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interacts_With"/>
+        <Class IRI="#User_Interface"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#measures"/>
+        <Class IRI="#Metric"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#monitors"/>
+        <Class IRI="#Bot"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#receives"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#sends"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#transfers"/>
+        <Class IRI="#Artifact"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#API"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Dialogue_Management"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Medium"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Natural_Langauge_Processor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses"/>
+        <Class IRI="#Service"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#receives"/>
+        <ObjectProperty IRI="#sends"/>
+    </DisjointObjectProperties>
+    <DataPropertyDomain>
+        <DataProperty IRI="#measurement"/>
+        <Class IRI="#Metric"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#produces_Event"/>
+        <Class IRI="#API"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#produces_Event"/>
+        <Class IRI="#Medium"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#produces_Event"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#supported_Type"/>
+        <Class IRI="#API"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#supported_Type"/>
+        <Class IRI="#Service"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#timestamp"/>
+        <Class IRI="#Metric"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#measurement"/>
+        <Datatype abbreviatedIRI="xsd:unsignedLong"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#produces_Event"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#supported_Type"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#timestamp"/>
+        <Datatype abbreviatedIRI="xsd:dateTimeStamp"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
