@@ -31,6 +31,9 @@
         <Class IRI="#Database"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Developer"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Dialogue_Management"/>
     </Declaration>
     <Declaration>
@@ -283,6 +286,10 @@
         <Class IRI="#Service"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Developer"/>
+        <Class IRI="#User"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Malicious_Bot"/>
         <Class IRI="#Bot"/>
     </SubClassOf>
@@ -590,6 +597,21 @@
         <ObjectProperty IRI="#transfers"/>
         <NamedIndividual IRI="#Telegram"/>
         <NamedIndividual IRI="#Voice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Weather_Bot"/>
+        <NamedIndividual IRI="#OpenAPI"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Weather_Bot"/>
+        <NamedIndividual IRI="#Slack"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#uses"/>
+        <NamedIndividual IRI="#Weather_Bot"/>
+        <NamedIndividual IRI="#Telegram"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#produces_Event"/>
